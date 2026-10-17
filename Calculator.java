@@ -5,4 +5,7 @@ public class Calculator {
         return a / b; // Potential division by zero
     }
 
+    public int add(int a, int b) {
+        return a + b;
+    }
 }
