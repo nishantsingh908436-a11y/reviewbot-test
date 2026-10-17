@@ -1,8 +1,6 @@
-
 public class Calculator {
-
     public int divide(int a, int b) {
-        return a / b; // Potential division by zero
+        // Dividing without checking b == 0
+        return a / b;
     }
-
 }
